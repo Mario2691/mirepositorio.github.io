@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    font-family: 'open sans', sans-serif;
+}
+
+nav{
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.oscuro{
+    background-color: black;
+    color: white;
+
+}
+
+.oscuro a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-image: url('../img/bg-hero.png'); /*Coloca una imagen como fondo de la seccion*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.25rem 3.125rem;
+    /*Estilos del texto del header */
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: right; /*Alinea el texto a la derecha*/
+    color:white; /*Da color blanco al texto*/
+}
+
+header h1{
+    font-size: 60px; /*Da un tamaño de 60 pixeles a la letra de h1 en el header*/
+}
+
+header h3{
+    font-size: 40px; /*Da un tamaño de 40 pixeles a la letra de h3 en el header*/
+    font-weight: lighter; /*Define el texto como mas tenue*/
+}
+
+#ubicacion{
+    text-align: center;
+}
+
+#proximacharla{
+    text-align: left;
+    background: #a4452c;
+    color: white;
+    padding: 100px;
+}
+
+.centrado{
+    width: 800px;
+    margin: auto;
+}
+
+.centrado img {
+    width: 25%;
+}
+
+.centrado .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.centrado img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.eventos{
+    text-align: center;
+    height: 273px;
+    padding-top: 25px;
+
+}
+
+.icono{
+    text-align: center;
+    display: inline-block;
+}
+
+.iconotex{
+    
+    display: inline-block;
+}
+
+#mediana{
+    width: 300px;
+  }
+
+section, footer{
+    margin-top: 3rem;
+}
+
+footer{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 3.125rem;
+}
+
+i{
+    font-size: 30px;
+}
